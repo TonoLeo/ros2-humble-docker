@@ -14,6 +14,4 @@ RUN apt-get install -y git
 RUN apt-get install -y terminator 
 
 RUN echo "source /opt/ros/humble/setup.sh" >> .bashrc
-RUN echo "export ROS_MASTER_URI=http://localhost:11311" >> .bashrc
-RUN echo "export ROS_HOSTNAME=localhost" >> .bashrc
 
